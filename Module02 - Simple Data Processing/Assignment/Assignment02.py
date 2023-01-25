@@ -26,7 +26,7 @@ def BasicMathScript():
 
     # Calculating the difference
     outputvariable = userinputnumber_1 - userinputnumber_2
-    print("The difference of", userinputnumber_1, "and", userinputnumber_2, "is: ", outputvariable)
+    print("The difference of", userinputnumber_1, "and", userinputnumber_2, "is: ", abs(outputvariable))
 
     # Calculating the product
     outputvariable = userinputnumber_1 * userinputnumber_2
